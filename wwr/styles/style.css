@@ -154,14 +154,17 @@ nav a:hover {
 .top {
 grid-area: top;
 border-left: 1px solid;
+text-align: center;
 }
 .left {
     grid-area: left;
     border-top: 1px solid;
     border-left: 1px solid;
+    text-align: center;
 }
 .right {
     grid-area: right;
     border-top: 1px solid;
     border-right: 1px solid;
+    text-align: center;
 }
