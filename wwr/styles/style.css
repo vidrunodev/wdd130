@@ -30,7 +30,10 @@ Fonts are separated by a & */
 
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
-
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
 body {
     max-width: 1600px;
     margin: 0 auto;
@@ -121,6 +124,15 @@ nav a:link, nav a:visited {
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
+}
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+.button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
 }
 .sitemap {
     display: grid;
