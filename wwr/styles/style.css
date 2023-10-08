@@ -65,7 +65,7 @@ header {
     color: var(--headline-color-on-color);
     background-color: var(--paragraph-background-color);
     background-color: #8c8681;
-}
+  }
 header > h1, header > h2 {
     color: var(--headline-color-on-color);
 }
@@ -119,6 +119,7 @@ nav a {
     text-decoration: none;
     padding: 10px;
     text-align: center;
+    color: #ca9c7d
 }
 nav a:link, nav a:visited {
     color: var(--nav-link-color);
@@ -127,26 +128,49 @@ nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
     background-color: #403d3b;
+    color: #ca9c7d
+}
+
+.home-title {
+  color:#403d3b
+}
+
+h4{
+  color:var(--secondary-color)
 }
 
 .book, .join {
-    background-color:#8c8681
+  background-color:var(--paragraph-background-color)
 }
 
 .book:hover, .join:hover{
-    background-color: #8c8681;
+  background-color:var(--accent1-color)
 }
 
+.msg h2 {
+  color:var(--accent2-color)
+}
+.msg p{
+    color:var(--accent2-color)
+}
 #background {
-    height: 725px;
+  height: 725px;
 }
 
 .msg {
-    background-color: #8c8681;
+  background-color:var(--nav-link-color);
 }
 
 footer {
-    background-color: #8c8681;
+  background-color:var(--nav-link-color);
+}
+
+footer a {
+    color:var(--accent2-color)
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 #hero-msg h1, #hero-msg h4 {
