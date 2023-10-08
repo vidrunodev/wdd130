@@ -109,7 +109,7 @@ nav  {
     display: flex;
 }
 nav a {
-    text-align: center
+    text-align: center;  
     padding:1em;
     min-width: 120px;
     text-decoration: none;
