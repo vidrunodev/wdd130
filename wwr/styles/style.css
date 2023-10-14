@@ -62,11 +62,13 @@ h6 {
 }
 
 h2 {
-    text-align: center;
+    margin: 0;
 }
 
 hr {
-    margin: 0;
+    height: 3px;
+    margin: 35px 0;
+    background: var(--accent1-color);
 }
 
 header {
