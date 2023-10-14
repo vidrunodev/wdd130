@@ -42,7 +42,8 @@ body {
     font-family: "Roboto", sans-serif;
     font-size: 22px;
     margin: 0 auto;
-    padding: 0;    
+    padding: 0;
+    text-align: center;    
 }
 
 img {
@@ -62,6 +63,7 @@ h6 {
 }
 
 h2 {
+    text-align: center;
     margin: 0;
 }
 
@@ -137,6 +139,10 @@ nav {
 nav {
     list-style-type: none;
     display: flex;
+}
+
+#logo_link {
+    padding-top: 5px;
 }
 
 nav a {
