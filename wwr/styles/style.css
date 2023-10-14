@@ -45,6 +45,7 @@ body {
     text-align: center;
     background-color: #c0b7b1;
     font-family: "Roboto", sans-serif;
+    font-size: 22px;
 }
 
 img {
@@ -177,6 +178,7 @@ nav a:hover,
 
 .home-title {
     color: #403d3b;
+    font-size: 2em;
 }
 
 h4 {
@@ -186,6 +188,7 @@ h4 {
 .book,
 .join {
     background-color: var(--paragraph-background-color);
+    font-size: 18px;
 }
 
 .book:hover,
@@ -199,6 +202,7 @@ h4 {
 
 .msg p {
     color: var(--accent2-color);
+    font-size: 0.8em;
 }
 
 #background {
@@ -206,7 +210,8 @@ h4 {
 }
 
 .msg {
-    background-color: var(--nav-link-color);
+    background-color: #403d3b;
+    line-height: 1.5em;
 }
 
 footer {
