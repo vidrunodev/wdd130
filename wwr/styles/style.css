@@ -39,7 +39,7 @@ Fonts are separated by a & */
 
 body {
     background-color: #c0b7b1;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto",Helvetica, sans-serif;
     font-size: 22px;
     margin: 0 auto;
     padding: 0;
@@ -146,11 +146,11 @@ nav {
 }
 
 nav a {
+    text-decoration: none;
+    color: #ca9c7d;
+    text-align: center;
     padding: 35px;
     min-width: 120px;
-    text-decoration: none;
-    text-align: center;
-    color: #ca9c7d;
 }
 
 nav a:link,
@@ -180,7 +180,9 @@ nav a:hover,
 
 .home-title {
     color: #403d3b;
+    font-family: "Roboto",Helvetica, sans-serif;
     font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -192,11 +194,21 @@ h4 {
     background-color: var(--paragraph-background-color);
     font-size: 18px;
     padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.card-img {
+    border: 10px solid #ca9c7d;
 }
 
 .book:hover,
 .join:hover {
     background-color: var(--accent1-color);
+}
+
+.river-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
 
 .msg h2 {
@@ -222,6 +234,7 @@ h4 {
 footer {
     background-color: var(--nav-link-color);
     padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -256,6 +269,7 @@ footer .social img {
 
 main section {
     text-align: center;
+    box-sizing: border-box
 }
 
 .sitemap {
