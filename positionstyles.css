@@ -7,7 +7,7 @@
   align-items: center;
 }
 .red1 { 
-  width: 100%;
+  width: 90%;
   height: 130px;
   background-color: red;
   margin-bottom: 10px;
@@ -54,7 +54,7 @@
 }
 
 .blue1 {
-  width: 100%;
+  width: 90%;
   height: 130px; 
   background-color: blue;
   margin-top: 10px; 
