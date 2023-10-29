@@ -1,4 +1,4 @@
-/* if you are using any Google fonts change the font names below to your fonts. 
+//* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
 @import url("https://fonts.googleapis.com/css2?family=Inria+Serif&family=Roboto&display=swap");
@@ -47,49 +47,57 @@ nav {
     justify-content: space-around;
 }
 
-nav a{
+nav a {
     text-align: center;
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 35px;
 }
+
 .nav a:hover {
     background-color: var(--nav-hover-background-color);
     color: var(--nav-hover-link-color);
 }
+
 .home-tile {
     background-color: var(--primary-color);
-    font-family: "Roboto",Helvetica, sans-serif;
+    font-family: "Roboto", Helvetica, sans-serif;
     font-size: 2em;
     margin-top: 10px;
 }
 
-h1{
+h1 {
     font-family: var(--heading-font), serif;
     color: var(--headline-color-on-dark-gray);
 }
+
 h2 {
     font-family: var(--heading-font), serif;
     color: var(--headline-color-on-dark-gray);
     margin: 0;
 }
+
 h3 {
     font-family: var(--heading-font), serif;
     color: var(--headline-color-on-dark-gray);
 }
+
 h4 {
     color: var(--headline-color-on-dark-gray);
 }
+
 h5 {
     font-family: var(--heading-font), serif;
     color: var(--headline-color-on-dark-gray);
 }
+
 h6 {
     font-family: var(--heading-font), serif;
     color: var(--headline-color-on-dark-gray);
 }
 
-.book, .join {
+.book,
+.join {
     background-color: var(--secondary-color);
     color: var(--primary-color);
     text-decoration: none;
@@ -99,7 +107,8 @@ h6 {
     border-radius: 5px;
 }
 
-.book:hover, .join:hover {
+.book:hover,
+.join:hover {
     background-color: var(--accent3-color);
 }
 
@@ -160,7 +169,9 @@ h6 {
     transform: scale(1.1);
 }
 
-.rivers-card, .camping-card, .rapids-card {
+.rivers-card,
+.camping-card,
+.rapids-card {
     margin: 200px 0;
 }
 
@@ -186,7 +197,8 @@ h6 {
     box-shadow: 5px 5px 10px va(--nav-link-color);
 }
 
-.card-img, .mountains {
+.card-img,
+.mountains {
     width: 100%;
 }
 
@@ -196,7 +208,8 @@ h6 {
     margin-top: 50px;
 }
 
-#hero-msg h1, #hero-msg h4{
+#hero-msg h1,
+#hero-msg h4 {
     text-align: center;
     color: var(--paragraph-background-color);
 }
@@ -205,13 +218,14 @@ h6 {
     font-size: 60px;
 }
 
-.button-box{
+.button-box {
     text-align: center;
 }
 
-main section{
+main section {
     text-align: center;
 }
+
 main section img {
     box-sizing: border-box;
 }
@@ -254,7 +268,7 @@ footer {
 
 footer a {
     color: var(--headline-color-on-color);
-    text-decoration: nonce;
+    text-decoration: none;
 }
 
 footer a:hover {
@@ -274,44 +288,59 @@ footer .social img {
 }
 
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+
+    #hero,
+    .home-grid {
         display: block;
         height: auto;
     }
-    nav, footer {
+
+    nav,
+    footer {
         flex-direction: column;
     }
+
     nav a {
         display: block;
         padding: 15px;
     }
+
     #hero {
         margin-top: 0;
     }
+
     #hero-msg {
         margin-top: 0;
     }
+
     #hero-msg h4 {
         display: none;
     }
+
     .home-title {
         font-size: 25px;
         color: #6f7364;
     }
-    .rivers-card, .camping-card, .rapids-card { 
+
+    .rivers-card,
+    .camping-card,
+    .rapids-card {
         margin: 50px auto;
         width: 60%;
     }
+
     #background {
         display: none;
     }
-    .mountains, .msg {
+
+    .mountains,
+    .msg {
         width: 80%;
         display: block;
         margin: 0 auto;
     }
+
     footer {
         margin-top: 25px;
     }
 }
-            
