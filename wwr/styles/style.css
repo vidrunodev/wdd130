@@ -193,13 +193,18 @@ h6 {
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 #hero-msg h1, #hero-msg h4{
     text-align: center;
-    color: var(--primary-color);
+    color: var(--paragraph-background-color);
 }
+
+#hero-msg h1 {
+    font-size: 45px;
+}
+
 .button-box{
     text-align: center;
 }
