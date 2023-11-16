@@ -284,6 +284,40 @@ footer .social img {
     padding-top: 15px;
 }
 
+header nav a {
+    padding: 35px;
+}
+
+/*Consistent logo link padding  */
+#logo_link {
+    padding-top: 5px;
+}
+
+/* Adjusting header structure to correct About Us header */
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    margin-right: 10px; /* Adjust margin as needed */
+}
+
+.icons img {
+    width: 30px; /* Adjust size as needed */
+    margin-right: 10px; /* Adjust margin as needed */
+}
+
+.button-box {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
 @media screen and (max-width: 900px) {
 
     #hero,
