@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Serif&family=Roboto&display=swap");
+
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #f5a065;
+    --secondary-color: #f1e1d9;
+    --accent1-color: #fc6746;
+    --accent2-color: #444444;
+
+    /* change the values below to your chosen font(s) */
+    --heading-font: "Inria Serif";
+    --paragraph-font: Roboto, Helvetica, sans-serif;
+
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #f5a065;
+    /* headlines on a white background */
+    --headline-color-on-color: #444444;
+    /* headlines on a colored background */
+    --paragraph-color-on-white: #f5a065;
+    /* paragraph text on a white background */
+    --paragraph-color-on-color: #444444;
+    /* paragraph text on a colored background */
+    --paragraph-background-color: #f5a065;
+    --nav-link-color: #f5a065;
+    --nav-background-color: #f1e1d9;
+    --nav-hover-link-color: #444444;
+    --nav-hover-background-color: #f5a065;
+}
+
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+#hero-msg1 h1, #hero-msg1 h4 {
+    text-align: center;
+}
+
+
+#hero-img {
+    width: 100%;
+}
+
+#background {
+    height: 725px;
+}
+
+.button-box {
+    text-align: center;
+}
+
+.home-title {
+    font-family: var(--heading-font);
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.logo {
+    width: 100px;
+}
+
+nav{
+    background-color: var(--nav-background-color) ;
+    color: var(--nav-link-color);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: var(--heading-font);
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    background-color: var(--nav-background-color) ;
+    color: var(--nav-link-color);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: var(--heading-font);
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a:hover {
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-link-color);
+}
+
+a:hover {
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-link-color);
+}
+
+header{
+    background-color: var(--primary-color);
+}
+
+body {
+    background-color: var(--paragraph-background-color);
+    font-family: var(--paragraph-font);
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+footer {
+    background-color: var(--nav-background-color) ;
+    color: var(--nav-link-color);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: var(--heading-font);
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .social img {
+    padding-top: 10px;
+}
+
+footer a {
+    background-color: var(--nav-background-color) ;
+    color: var(--nav-link-color);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: var(--heading-font);
+    justify-content: space-around;
+}
+
+footer p {
+    font-size: 1.2em;
+    margin: 20px auto;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
