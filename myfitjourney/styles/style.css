@@ -70,10 +70,6 @@
     text-align: center;
 }
 
-#homepage-hero{
-    width: 100%;
-    height: auto;
-}
 
 #health-section {
     position: relative;
@@ -83,11 +79,15 @@
     position: relative;
 }
 
+
+
 #homepage-health {
     width: 100%;
     height: auto;
     max-height: 500px; /* Ajusta la altura máxima según tus necesidades */
 }
+
+
 
 #journey-title {
     position: absolute;
@@ -107,32 +107,39 @@
 .slide-in-overlay {
     position: relative;
     overflow: hidden;
-    width: 45%;
-    max-height: 800px; 
+    width: 50%;
+    max-height: 800px;
+    display: flex;
+    align-items: flex-end;
 }
 
+
 .slide-in-overlay img {
-    width: 100%;
-    max-height: 800px; 
+    width: 800px;
+    height: auto;
     transition: transform 0.5s ease;
 }
 
 .overlay-content {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5); 
+    bottom: 0; /* Coloca el contenido en la parte inferior del contenedor */
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    text-align: center;
     color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    z-index: 1;
     opacity: 0;
     transition: opacity 0.5s ease;
 }
 
+.overlay-content h1 {
+    font-size: 4em; /* Ajusta el tamaño de fuente según tus necesidades */
+    margin-bottom: 400px; /* Ajusta el margen inferior según tus necesidades */
+}
+
+.overlay-content p {
+    font-size: 2em; /* Ajusta el tamaño de fuente según tus necesidades */
+    margin-bottom: 300px;
+}
 .slide-in-overlay:hover img {
     transform: translateY(-100%);
 }
