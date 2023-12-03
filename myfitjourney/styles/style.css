@@ -64,12 +64,40 @@
 }
 
 #hero-box {
+    display: grid;
     grid-column: 1/4;
     grid-row: 1/3;
     z-index: -1;
     text-align: center;
+    
 }
 
+#fitness-box {
+    position: relative;
+}
+
+.image-container {
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#homepage-fitness {
+    width: 70%;
+    height: auto;
+    max-height: 600px; 
+}
+
+.overlay-text {
+    position: absolute;
+    top: 15%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    margin: 0; 
+    font-size: 1.5em; 
+    color: var(--accent1-color); 
+}
 
 #health-section {
     position: relative;
@@ -88,18 +116,19 @@
 
 .hero-text {
     position: absolute;
-    top: 350px;
-    right: 300px;
-    width: 30%; /* Ocupa la mitad del ancho del contenedor padre */
+    top: 150px;
+    right: 10%;
+    width: 40%; /* Ocupa la mitad del ancho del contenedor padre */
     padding: 20px; /* Ajusta el espacio interno según sea necesario */
     box-sizing: border-box; /* Incluye el padding y el border en el ancho total */
-    color: white; /* Ajusta el color del texto según sea necesario */
+    color: var(--headline-color-on-color); /* Ajusta el color del texto según sea necesario */
     text-align: center; /* Ajusta la alineación del texto según sea necesario */
+    max-width: 600px;
 }
 
 .hero-text p {
-    font-size: 1.8em; /* Ajusta el tamaño de fuente según sea necesario */
-    margin: 0; /* Elimina el margen predeterminado del párrafo */
+    font-size: 1.5em; /* Ajusta el tamaño de fuente según sea necesario */
+    margin: 50px; /* Elimina el margen predeterminado del párrafo */
 }
 
 #journey-title {
@@ -116,6 +145,10 @@
     height: 725px;
 }
 
+.home-grid{
+    max-width: 100%;
+    margin: 0 auto;
+}
 
 .slide-in-overlay {
     position: relative;
@@ -262,6 +295,7 @@ h2 {
 
 .feature{
     background-color: var(--nav-background-color);
+    padding: 20px;
 }
 
 .feature p {
@@ -301,4 +335,3 @@ footer p a:hover {
 footer .social img {
     padding-top: 15px;
 }
-
