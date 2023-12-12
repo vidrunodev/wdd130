@@ -111,34 +111,34 @@ justify-content: center;
 #homepage-health {
     width: 100%;
     height: auto;
-    max-height: 500px; /* Ajusta la altura máxima según tus necesidades */
+    max-height: 500px; 
 }
 
 .hero-text {
     position: absolute;
     top: 150px;
     right: 10%;
-    width: 40%; /* Ocupa la mitad del ancho del contenedor padre */
-    padding: 20px; /* Ajusta el espacio interno según sea necesario */
-    box-sizing: border-box; /* Incluye el padding y el border en el ancho total */
-    color: var(--headline-color-on-color); /* Ajusta el color del texto según sea necesario */
-    text-align: center; /* Ajusta la alineación del texto según sea necesario */
+    width: 40%; 
+    padding: 20px; 
+    box-sizing: border-box; 
+    color: var(--headline-color-on-color); 
+    text-align: center; 
     max-width: 600px;
 }
 
 .hero-text p {
-    font-size: 1.5em; /* Ajusta el tamaño de fuente según sea necesario */
-    margin: 50px; /* Elimina el margen predeterminado del párrafo */
+    font-size: 1.5em; 
+    margin: 50px; 
 }
 
 #journey-title {
     position: absolute;
-    top: 50%; /* Centra verticalmente el texto en el contenedor padre */
-    left: 50%; /* Centra horizontalmente el texto en el contenedor padre */
-    transform: translate(-50%, -50%); /* Centra completamente el texto */
-    margin: 0; /* Elimina el margen predeterminado del título */
-    font-size: 2.8em; /* Ajusta el tamaño del texto según tus necesidades */
-    color: var(--paragraph-color-on-color); /* Ajusta el color del texto según sea necesario */
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    margin: 0; 
+    font-size: 2.8em; 
+    color: var(--paragraph-color-on-color); 
 }
 
 #background {
@@ -169,8 +169,8 @@ justify-content: center;
 
 .overlay-content {
     position: absolute;
-    bottom: 0; /* Coloca el contenido en la parte inferior del contenedor */
-    width: 100%; /* Ocupa todo el ancho del contenedor */
+    bottom: 0; 
+    width: 100%; 
     text-align: center;
     color: white;
     z-index: 1;
@@ -179,12 +179,12 @@ justify-content: center;
 }
 
 .overlay-content h1 {
-    font-size: 4em; /* Ajusta el tamaño de fuente según tus necesidades */
-    margin-bottom: 400px; /* Ajusta el margen inferior según tus necesidades */
+    font-size: 4em; 
+    margin-bottom: 400px; 
 }
 
 .overlay-content p {
-    font-size: 2em; /* Ajusta el tamaño de fuente según tus necesidades */
+    font-size: 2em; 
     margin-bottom: 300px;
 }
 .slide-in-overlay:hover img {
@@ -204,10 +204,10 @@ justify-content: center;
     font-family: var(--heading-font);
     font-size: 2em;
     margin-top: 10px;
-    position: absolute; /* Establece posición absoluta para superponer */
-    bottom: 10px; /* Ajusta la distancia desde la parte inferior */
-    left: 10px; /* Ajusta la distancia desde la parte izquierda */
-    color: var(--nav-background-color); /* Ajusta el color según sea necesario */
+    position: absolute; 
+    bottom: 10px; 
+    left: 10px; 
+    color: var(--nav-background-color); 
     z-index: 1;
     font-size: 3em;
 }
@@ -239,7 +239,7 @@ justify-content: center;
 
 nav {
     display: grid;
-    grid-template-columns: repeat(3, auto); /* Ajuste en columnas */
+    grid-template-columns: repeat(3, auto); 
     justify-content: space-around;
     align-items: center;
 }
@@ -305,6 +305,43 @@ h2 {
 .feature h3 {
     text-align: left;
 }
+
+.split-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px; /* Adjust the margin as needed */
+}
+
+.split-container .slide-in-overlay {
+    width: 50%; /* Adjust the width as needed */
+    position: relative;
+}
+
+.split-container #homepage-health {
+    width: 100%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 100%; /* Adjust the max-height as needed */
+    display: block; /* Remove extra spacing below the image */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.split-container .overlay-content {
+    position: absolute;
+    bottom: -100px; /* Adjust the distance from the bottom as needed */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.split-container .hero-text {
+    width: 45%; /* Adjust the width as needed */
+    height: auto;
+    max-height: 100%;
+    right: 2%;
+}
+
+
+
 
 footer {
     background-color: var(--nav-background-color);
