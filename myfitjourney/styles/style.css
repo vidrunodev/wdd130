@@ -369,3 +369,91 @@ footer p a:hover {
 footer .social img {
     padding-top: 15px;
 }
+
+@media screen and (max-width: 900px) {
+
+    #hero {
+        display: block;
+        height: auto;
+    }
+
+    #hero-msg1 h1,
+    #hero-msg1 h4 {
+        text-align: center;
+    }
+
+    #hero-box,
+    #hero-img,
+    #homepage-hero,
+    #homepage-fitness,
+    #homepage-health {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .overlay-text {
+        top: 5%; /* Adjust the position as needed */
+        font-size: 1em; /* Adjust the font size as needed */
+    }
+
+    .hero-text {
+        position: relative;
+        top: auto;
+        right: auto;
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    #journey-title {
+        position: static;
+        transform: none;
+        margin-top: 20px; /* Adjust the margin as needed */
+        font-size: 2em; /* Adjust the font size as needed */
+    }
+
+    .slide-in-overlay {
+        width: 100%;
+    }
+
+    .overlay-content h1 {
+        font-size: 2.5em; /* Adjust the font size as needed */
+        margin-bottom: 200px; /* Adjust the margin as needed */
+    }
+
+    .overlay-content p {
+        font-size: 1.5em; /* Adjust the font size as needed */
+        margin-bottom: 150px; /* Adjust the margin as needed */
+    }
+
+    .button-box {
+        text-align: center;
+        grid-column: auto;
+    }
+
+    .benefits-section {
+        grid-template-columns: 1fr; /* Adjust the grid columns as needed */
+        margin: 0 20px; /* Adjust the margin as needed */
+    }
+
+    .benefit {
+        width: 100%;
+        margin-bottom: 20px; /* Adjust the margin as needed */
+    }
+
+    .benefit h3 {
+        text-align: center;
+    }
+
+    .benefit p {
+        text-align: center;
+    }
+
+    .home-title {
+        font-size: 2.5em; /* Adjust the font size as needed */
+    }
+
+    /* Add more responsive styles as needed */
+
+}
